@@ -1,0 +1,146 @@
+.banner-container {
+  margin: 2rem 3rem;
+  max-width: 100%;
+  height: 51.8rem;
+  background-color: #e6e9f2;
+  border-radius: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+.banner-collections {
+  background-color: #fafafa;
+}
+.flex-container {
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+.flex-item-1 {
+  width: 50%;
+  flex: 1;
+}
+.primary-heading-container {
+  max-width: 45.1rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 7.4rem;
+  padding-top: 7.1rem;
+}
+.trending-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15rem;
+  height: 3.3008rem;
+  text-align: center;
+  border-radius: 4.9008rem;
+  background-color: #fadfe4;
+  margin-bottom: 1.6rem;
+}
+.primary-heading {
+  max-width: 100%;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.4528rem;
+}
+.primary-collection {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 35.84rem;
+}
+.collection-heading {
+  margin-top: 3rem;
+  font-size: 2.4rem;
+  font-weight: 400;
+  color: #617587;
+}
+.collection-subheading {
+  font-size: 6.4rem;
+  font-weight: 800;
+  width: 45rem;
+  color: #000000;
+}
+.artist-container {
+  max-width: 25rem;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  justify-content: space-between;
+}
+.avatar-info {
+  width: 25rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+.avatar-name {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #617587;
+}
+.avatar-text {
+  font-size: 2.4rem;
+  font-weight: 400;
+  color: Black;
+}
+.btn-container {
+  margin-left: 7.4rem;
+  margin-top: 3rem;
+  width: 51.4rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  justify-content: space-between;
+}
+.buy-btn {
+  width: 24.8rem;
+  height: 6.7rem;
+  border-radius: 8.7rem;
+  cursor: pointer;
+  background-color: #23252b;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.collection-btn {
+  width: 24.8rem;
+  height: 6.7rem;
+  border-radius: 8.7rem;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: black;
+}
+.flex-item-2 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+.banner-img-container {
+  margin-top: 3rem;
+  width: 43.7rem;
+  height: 41.1rem;
+}
+.banner-img {
+  border-radius: 5rem;
+}
+.collections-text {
+  width: 60rem;
+  letter-spacing: 0.95px;
+  color: rgba(35, 37, 43, 1);
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: inherit;
+  line-height: 3.6rem;
+  margin-bottom: 2rem;
+}

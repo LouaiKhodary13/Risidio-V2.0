@@ -1,0 +1,39 @@
+.time-slider {
+  margin: 2rem 3rem;
+  max-width: 100%;
+  padding-left: 2.4rem;
+}
+.slider-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.slider {
+  height: 1.4rem;
+  border-radius: 0.7rem;
+}
+.slider-1 {
+  width: 19rem;
+  background-color: #23252b;
+}
+.slider-2 {
+  width: 19rem;
+  background-color: #e6e9f2;
+}
+.inner-slider {
+  width: 4.6rem;
+  height: 100%;
+  background-color: black;
+  border-radius: 0.7rem;
+}
+.slider-3,
+.slider-4,
+.slider-5 {
+  width: 19rem;
+  background-color: #e6e9f2;
+}
+.slider-6 {
+  width: 19.2rem;
+  background-color: #e6e9f2;
+  margin-right: 2.4rem;
+}

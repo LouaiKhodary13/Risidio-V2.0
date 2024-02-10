@@ -1,0 +1,144 @@
+.account-container {
+  width: 56rem;
+  height: 98rem;
+  position: absolute;
+  top: 20px;
+  right: -5px;
+  display: flex;
+  overflow: hidden; /* Prevents content overflow */
+}
+.account-item-1 {
+  position: relative;
+  width: 6.5rem;
+  color: #000; /* Font color for the content inside the element */
+}
+
+.account-item-1::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 1.3rem;
+  backdrop-filter: blur(5px); /* Adjust the blur radius as needed */
+  z-index: 11;
+  background: #d4d4d43b;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.icon {
+  position: absolute;
+  top: 40px;
+  right: 15px;
+  z-index: 22;
+  cursor: pointer;
+}
+.account-item-2 {
+  width: 45.9rem;
+  background-color: #fff;
+  border-radius: 1.3rem;
+  border: 0.2rem solid rgba(2, 7, 29, 1);
+  z-index: 22;
+  overflow: auto;
+}
+.user-container {
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 25rem;
+  height: 5rem;
+}
+.user-heading {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: space-between;
+}
+.user-img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background-color: #29627f;
+}
+.user-checkout-container {
+  width: 28.2rem;
+  padding: 2rem;
+}
+.checkout-wallet {
+  font-family: inherit;
+  font-size: 1.4rem;
+  font-weight: 400;
+  letter-spacing: 5%;
+  color: #7b7b7b;
+  margin-bottom: 2rem;
+}
+.checkout-wallet-price {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 3.6rem;
+}
+.user-nft {
+  margin-top: 5rem;
+  font-family: inherit;
+  font-weight: 800;
+  font-size: 2.4rem;
+}
+.user-wallet {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 3rem;
+}
+.user-wallet-info {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 2.4rem;
+  color: #617587;
+  margin-bottom: 5rem;
+}
+.wallet-btn {
+  width: 24.8rem;
+  height: 6.7rem;
+  border-radius: 8.7rem;
+  padding: 2.4rem;
+  background-color: #23252b;
+  color: #fafafa;
+  font-weight: 600;
+  font-family: inherit;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+.hide-account {
+  display: none;
+}
+.user-wallet-cart {
+  max-width: 100%;
+  min-height: 0;
+  display: flex;
+  overflow: auto;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.user-wallet-item-images {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.user-wallet-image {
+  width: 39.1rem; /* Adjust image width as needed */
+  height: 22.7rem; /* Adjust image height as needed */
+  margin: 1rem; /* Add margin between images */
+}

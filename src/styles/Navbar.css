@@ -1,0 +1,41 @@
+nav {
+  width: 100%;
+  padding: 2rem 3rem;
+}
+.nav-header {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  width: 25rem;
+  font-size: 3.2rem;
+  font-weight: 800;
+  color: rgba(35, 37, 43, 1);
+}
+.btn-header-container {
+  width: 20.3rem;
+  height: 6.7rem;
+  background-color: #fff;
+  border-radius: 8.7rem;
+  border: 0.1rem solid #000;
+  padding: 2.4rem 4.2rem;
+  cursor: pointer;
+}
+.btn-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 11.9rem;
+  height: 1.9rem;
+  line-height: 1.9rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  font-family: inherit;
+  color: #000;
+  text-transform: capitalize;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
